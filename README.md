@@ -22,3 +22,32 @@ This simple project implements a Java interface to assess student performance ba
    Insira a nota do aluno: [insira a nota aqui] / Enter the student's grade: [enter the grade here]
    [Mensagem de Resultado]: [Conceito correspondente] / [Result Message]: [Corresponding Grade]
 
+## ⚙️ Estrutura do Código / Code Structure
+
+### `ConceitoAluno` (Interface) / `GradeConcept` (Interface)
+
+- Define constantes de conceitos para diferentes níveis de desempenho do aluno. / Defines constants of concepts for different levels of student performance.
+
+### `CadastroNota` (Classe) / `GradeRegistration` (Class)
+
+- Implementa a interface `ConceitoAluno`. / Implements the `GradeConcept` interface.
+- Avalia a nota fornecida e retorna o conceito correspondente. / Evaluates the provided grade and returns the corresponding concept.
+
+### `Main` (Classe) / `Main` (Class)
+
+- Classe principal que interage com o usuário. / Main class that interacts with the user.
+- Cria uma instância de `CadastroNota`. / Creates an instance of `GradeRegistration`.
+- Solicita a entrada da nota do aluno via caixa de diálogo. / Requests input of the student's grade via a dialog box.
+- Exibe o conceito calculado em uma mensagem de diálogo. / Displays the calculated concept in a dialog message.
+
+## 🤝 Contribuições / Contributions
+
+Contribuições para este projeto são bem-vindas. Se você tiver sugestões de melhoria ou encontrar algum problema, por favor, abra uma issue. / Contributions to this project are welcome. If you have suggestions for improvement or encounter any issues, please open an issue.
+
+## 📝 Licença / License
+
+Este projeto é licenciado sob a Licença MIT. / This project is licensed under the MIT License.
+
+👤 Autor / Author
+
+Este projeto foi criado por Denis Tomás. / This project was created by Denis Tomás.
